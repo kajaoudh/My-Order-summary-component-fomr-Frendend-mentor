@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 1px);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.card {
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 375px;
+}
+
+
+
+.icon {
+    width: 3rem;
+    padding: 0%;
+}
+
+.time   {
+    width: 9em;
+    line-height: 0.5;
+    padding: 0%;
+    padding-top: 0.5em;
+}
+
+a {
+    padding-bottom: 1.5em;
+}
+
+
+.annual-plan {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+} 
+
+.card img {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+h1 {
+    font-weight: 900;
+    font-size: 30px;
+    color: hsl(223, 47%, 23%);
+    padding: 0.5em;
+}
+
+.card-text {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.buttons {
+    padding: em;
+}
+
+.payment-btn {
+   border-radius: 0.7rem;
+   background-color: hsl(245, 75%, 52%);
+   font-weight: 900;
+   font-size: 18px;
+   padding: 0.8em;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.payment-btn:hover {
+    background-color: hsl(245, 75%, 60%);
+}
+
+.cancel-btn {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
